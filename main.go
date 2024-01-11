@@ -67,6 +67,8 @@ func main() {
 				s.ChannelMessageSend(m.ChannelID, "Claro q si tremendo relambe webos es ese tal 🔱 prieto gang 🤑")
 			case "Wallace, dame el precio de la tasa bcv, por favor":
 				s.ChannelMessageSend(m.ChannelID, "Claro, toma: "+getDataBcv() )
+			case "Wallace, dime tus pendientes":
+				s.ChannelMessageSend(m.ChannelID, "Meterme chatgpt pa poder hablar,\nRefactorizar en POO,\nGracias.")
 		}
 
 	})
